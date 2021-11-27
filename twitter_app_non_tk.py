@@ -37,9 +37,6 @@ except:
     print("Cannot connect to the server!")
 
 saved_tweets = []
-people_list = {"Mitch McConnel": "senatemajldr", 
-                "Donald Trump": "realDonaldTrump", 
-                "Don Trump Jr." : "DonaldJTrumpJr"}
 
 
 
