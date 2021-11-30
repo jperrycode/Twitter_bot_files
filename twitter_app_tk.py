@@ -53,8 +53,8 @@ class ParentWindow(Frame): # parent class
         #self.btn_follow_user.configure(command=self.choose_copy_from_direct)
             
             #Post tweet button
-        self.btn_ = tk.Button(self.master, text='Post tweet')
-        self.btn_choose_copy_from.grid(row=3, column=0, padx=5, pady=5, sticky='we')
+        self.btn_post_tweet = tk.Button(self.master, text='Post tweet')
+        self.btn_post_tweet.grid(row=3, column=0, padx=5, pady=5, sticky='we')
         #self.btn_choose_copy_from.configure(command=self.choose_copy_from_direct)
 
             #close button
